@@ -1,5 +1,2 @@
-# bot
-{
-For(var count 0,count < 1, count++)
-Say (Dicas)
-}
+Var bot=Dicas
+
