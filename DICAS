@@ -1,2 +1,39 @@
-Var bot=Dicas
+auth":{
+		"_info":"Your login data, set 'use-login' to true to use username and password instead of bot token",
+		
+		"use-login":false,
+		
+		"token":"Pj5wKYQLUvf6LwIS
 
+-R6FP8JAMxdLnpZBOKdkAvH5DlPjwvK0dM0B9M5tREmr5kRMNrQo
+
+",
+
+		"username":"Treew12",
+		"password":"YOUR ACCOUNT USERNAME IF PASSWORD LOGIN"
+	},
+	"settings":{
+		"_info":"Bot settings, prefix can be a list or string, hidden as a help_attr PMs help, ignore 'pm_help'",
+		
+		"description":"Generic Description",
+		"command_prefix":["~"],
+		"help_attrs":{
+			"hidden":true
+			},
+		"pm_help":null
+	},
+	"config":{
+		"_info":"File refresh, rate at which current files are refreshed, music status sets bot status to a random pick from a list separated by newlines, \
+		voice functions are the 'voice utils' cog, chat logging must be enabled for deep logging, deep logging logs time and user data for messages, markov mention\
+		can't be used with deep logging",
+		
+		"file_refresh":120,
+		"enable_music_status":true,
+		"enable_voice_functions":false,
+		"enable_channel_utils":true,
+		"enable_chat_logging":true,
+		"enable_deep_logging":true,
+		"enable_markov_mention_response":false,
+		"log_deleted_messages":true
+	}
+}
